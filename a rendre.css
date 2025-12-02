@@ -25,7 +25,7 @@ nav{
     gap: 50px;
     margin: 20px;
 
-    a{
+      a{
     text-decoration: none;
     color: rgb(255, 254, 254);
     font-weight: bold;
@@ -38,13 +38,17 @@ nav{
         background-color: white;
         color: black;
 }
+
 }
+
+
 main{
     margin: 20px;
     margin-right: 50%;
     
     
 }
+
 
 .info-card{
     border: 1px solid black;
@@ -62,10 +66,30 @@ main{
     transition: border 0.3s ease;
 }
 
-.info-card h1{
+.info-card h2{
     text-align: center;
 }
 
+.qualite{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px; 
+    margin:  20px;
+    margin-left: 60%;
+    width: 80%;
+    
+    
+}
+
+.qualite:hover{
+    border: 3px solid black;
+    transition: border 0.3s ease;
+    border-radius: 0px;
+}
+
+.qualite h2{
+    text-align: center;
+}
 
 .competence{
     border: 1px solid black;
@@ -88,3 +112,27 @@ main{
     text-align: center;
 }
 
+.formation{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px; 
+    margin:  20px;
+    margin-left: 60%;
+    width: 80%;
+    
+    
+}
+
+.formation:hover{
+    border: 3px solid black;
+    transition: border 0.3s ease;
+    border-radius: 0px;
+
+}
+
+.formation h2{
+    text-align: center;
+}
+
+
+ 
