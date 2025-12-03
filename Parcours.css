@@ -44,26 +44,24 @@ div{
     margin: 20px;
 }
 
-.primaire:hover{
-    border: 3px solid black;
-    transition: border 0.3s ease;
-}
-
-.college:hover{
-    border: 3px solid black;
-    transition: border 0.3s ease;
-}
-
-.lycee:hover{
-    border: 3px solid black;
-    transition: border 0.3s ease;
-}
-
-.universite:hover{
-    border: 3px solid black;
-    transition: border 0.3s ease;
-}
 
 h1{
     padding: 20px;
+}
+
+.cote-a-cote{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+
+}
+
+.image{
+    flex-shrink: 0;
+    max-width: 600px;
+}
+
+.text{
+    flex-grow: 1;
+
 }
