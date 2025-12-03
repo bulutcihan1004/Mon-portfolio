@@ -69,3 +69,24 @@ img:hover{
     border-radius: 8px;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 1%;
+    
+    
+    
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+}
+
